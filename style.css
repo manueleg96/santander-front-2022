@@ -22,6 +22,7 @@ button {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    margin: 40px 20px 0;
     font-size: 0;
   }
 
@@ -35,6 +36,7 @@ button {
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+    font-family: sans-serif;
   }
 
   .logo > img {
@@ -47,14 +49,40 @@ button {
 
   .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
+    height: 45px;
   }
 
   .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .actions > * {
+    margin: 0 10px 0;
+  }
+
+  .actions a {
+    color: #67b54b ;
+  }
+
+  .actions button {
+    color: #FFFFFF ;
+    background-color: #67b54b;
+    padding: 12px 14px 12px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .main {
+    margin-top: 140px;
+    text-align: center;
+  }
+
+  .item {
+    margin: 0 25px 0;
   }
